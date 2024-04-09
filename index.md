@@ -12,17 +12,17 @@ Programming Projects
 ![harddrive](/images/HardDrive.png)
 
 ---
-### [Dijkstra's Implemented with Graphs | CSCI 315](project1)
+### [Dijkstra's Implemented with Graphs | CSCI 315](project2)
 
 ![just a graph](/images/graph.png)
 
 ---
-### [Verilog 6x64 Decoder | CSCI 330](project1)
+### [Verilog 6x64 Decoder | CSCI 330](project3)
 
 ![Assembly Fun](/images/hackerMenUsingAssembly.png)
 
 ---
-### [Hangman | CSCI 235](project1)
+### [Hangman | CSCI 235](project4)
 
 ![It's man that's hanging](/images/hangman.png)
 

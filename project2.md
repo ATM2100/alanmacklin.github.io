@@ -6,7 +6,7 @@ Dijkstra's Shortest Path with Adjcentcy matrix
 -   **Class:** Data Structures
 -   **Grade:** (A/100)
 -   **Language(s):** C++
--   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
+-   **Source Code Repository:** [ATM2100/Dijkstra](https://github.com/ATM2100/Dijkstra)  
     (Please [email me](mailto:atmacklin@csustudent.net?subject=GitHub%20Access) to request access.)
 
 ## Project description
