@@ -7,60 +7,60 @@ Programming Projects
 *For access to my private project repositories, please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) with the subject line, GitHub Access.
 
 ---
-### [Project 1 Title | CSCI 301](project1)
+### [Simulated Contiguous Memory Allocation | CSCI 431](project1)
 
-![Project 1 Thumbnail Name](images/dummy_thumbnail.jpg)
-
----
-### [Project 2 Title | CSCI 315](project1)
-
-![Project 2 Thumbnail Name](images/dummy_thumbnail.jpg)
+![harddrive](/images/HardDrive.png)
 
 ---
-### [Project 3 Title | CSCI 325](project1)
+### [Dijkstra's Implemented with Graphs | CSCI 315](project1)
 
-![Project 3 Thumbnail Name](images/dummy_thumbnail.jpg)
+![just a graph](/images/graph.png)
 
 ---
-### [Project 4 Title | CSCI 332](project1)
+### [Verilog 6x64 Decoder | CSCI 330](project1)
 
-![Project 4 Thumbnail Name](images/dummy_thumbnail.jpg)
+![Assembly Fun](/images/hackerMenUsingAssembly.png)
+
+---
+### [Hangman | CSCI 235](project1)
+
+![It's man that's hanging](/images/hangman.png)
 
 ---
 
 Ethics Papers
 -------------
 
-### [Paper 1 Title](/pdf/sample_presentation.pdf)
+### [The Ethics of Notifications](/pdf/EthicsOfNotifications.pdf)
 
--   **Class:**  
--   **Grade:**
+-   **Class:**  Procedural Programming (CSCI 235)
+-   **Grade:**  (B/82.5)
 
-### [Paper 2 Title](/pdf/sample_presentation.pdf)
+### [Personal Control and the World We Live In](/pdf/IOTVsPersonal.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class:** Architecture (CSCI 330)
+-   **Grade:** (A/100)
 
-### [Paper 3 Title](/pdf/sample_presentation.pdf)
+### [The Correct Approach to the Unapproachable](/pdf/CorrectApproach.pdf)
 
--   **Class:** 
--   **Grade:**
+-   **Class:** Data Structures and Analysis (CSCI 315)
+-   **Grade:** (A/90)
 
 ---
 
 Presentations
 -------------
 
-### [Presentation 1 Title](/pdf/sample_presentation.pdf)
+### [Basics of Password Cracking](/pdf/Password_Cracking_Powerpoint.pdf)
 
-- **Class:** 
-- **Grade:**
+- **Class:** Cyber Defense (CSCI 325)
+- **Grade:** Not yet graded
 
 
-### [Presentation 2 Title](/pdf/sample_presentation.pdf)
+### [Linux Paging](/pdf/Linux_x86_64_Paging.pdf)
 
-- **Class:** 
-- **Grade:**
+- **Class:** Operating Systems (CSCI 431)
+- **Grade:** (A/100 Pending Confirmation)
 
 ---
 

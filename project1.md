@@ -1,48 +1,72 @@
 [Back to Portfolio](./)
 
-Project 1 Title
+Simulated Contiguous Memory Allocation
 ===============
 
--   **Class:** 
--   **Grade:** 
--   **Language(s):** 
+-   **Class:** Operating Systems
+-   **Grade:** 100/100 Pending confirmation
+-   **Language(s):** C
 -   **Source Code Repository:** [features/mastering-markdown](https://guides.github.com/features/mastering-markdown/)  
-    (Please [email me](mailto:example@csustudent.net?subject=GitHub%20Access) to request access.)
+    (Please [email me](mailto:atmacklin@csustudent.net?subject=GitHub%20Access) to request access.)
 
 ## Project description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This simulated memory allocation program implements a doubly linked list so that memory of a given size can have information allocated to, removed from, condensed and shown the status of. Insert will allow the user to request memory of a size and either Best, Worst or First fit and give a kind of PID. Remove takes a PID and removes it from the simulated memory. Condense makes all of the running processes contiguous. Status shows the current processes in memory and where the gaps are.
 
 ## How to compile and run the program
 
-How to compile (if applicable) and run the project.
+All that is needed to compile and run the project is to be in the correct directory and run make. The number in the third commannd that actually runs the project can be any number, but I recomend it be at least 100 times bigger than the ammount you request at a time.
 
 ```bash
-cd ./project
-python setup.py
+cd ./SimulatedContiguousMemoryAllocation
+make
+./SimulatedMemoryAllocation 100000
 ```
-
-If the programming language does not require compilation, the update the heading to be “How to run the program.” If your application is deployed on a remote service, including instructions on how to deploy it.
 
 ## UI Design
 
-Almost every program requires user interaction, even command-line programs. Include in this section the tasks the user can complete and what the program does. You don't need to include how it works here; that information may go in the project description or in an additional section, depending on its significance.
+This program provides a custom terminal interface that can recieve five commands that allow for interfacing with the simulated memory. Please note that the program does not check for human error at all because this is supposed to simulate a computer allocating memory. As such, the algorithms that determain things like names and which process to delete when are assumed to be correct. 
 
-Lorem ipsum dolor sit amet (see Fig 1), consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat (see Fig 2). Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum (see Fig 3).
+A Refrence for the five commands available is printed at the start of the output (see Fig 1), as well as the types of fits available to request for. To request a block of memory, the provided example is a good place to start. After that, Requesting is done in this format:
+```
+RQ [name of process] [size] [fit type]
+```
+The three types of fits are in the refrence, and an example of a request can be seen in (Fig 2 and 6). The built in method of showing how the memory is allocated is the command:
+```
+STAT
+```
+which will give an output to the terminal (see Fig 3). Release is given the format of:
+```
+RL [name of Process]
+```
+Release removes the process specified (see Fig 4) and makes that section of memory "Unused". For Examples of the other two kinds of fits see (Fig 5). For the two remaining commands, just the single letters in the refrence are required.
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 1. The launch screen
+Compact:
+```
+C
+```
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 2. Example output after input is processed.
+Exit Program:
+```
+X
+```
 
-![screenshot](images/dummy_thumbnail.jpg)  
-Fig 3. Feedback when an error occurs.
+![screenshot](images/project1/Fig1.png)  
+Fig 1. When run initially
 
-## 3. Additional Considerations
+![screenshot](/images/project1/Fig2.png)  
+Fig 2. Example of requesting memory.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+![screenshot](/images/project1/Fig3.png)  
+Fig 3. Shows the current status of the memory.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![screenshot](/images/project1/Fig4.png)    
+Fig 4. Releasing memory example.
+
+![screenshot](/images/project1/Fig5.png)    
+Fig 5. Worst and Best Fit examples.
+
+![screenshot](/images/project1/Fig6.png)    
+Fig 4. Compaction example.
 
 [Back to Portfolio](./)
