@@ -15,9 +15,9 @@ This is a website built as a team of five, of which I functioned in the role of 
 This project features an online website for horse riding lessons complete with a calendar, login system for administrators or users, signing up for and canceling lessons.
 
 ## Afore mentioned documents
-Test cases: https://docs.google.com/spreadsheets/d/1722IhhqpZohj7tZ947yW0NN-bzVol_lu/edit#gid=59917924
+Test cases are [here](https://docs.google.com/spreadsheets/d/1722IhhqpZohj7tZ947yW0NN-bzVol_lu/edit#gid=59917924)
 
-Charter (includes Pert/Grant charts, and use cases): https://docs.google.com/document/d/1bm3SpEscxj7RXgLrpX0JwO5MbnmIiDItdflP3X-PbHA/edit
+Charter (includes Pert/Grant charts, and use cases) [here](https://docs.google.com/document/d/1bm3SpEscxj7RXgLrpX0JwO5MbnmIiDItdflP3X-PbHA/edit)
 
 ## How to set up the website server
 
@@ -27,8 +27,7 @@ Knowing is the easy part; saying it out loud is the hard part
 =======================================================
 
 Downloads:
-https://www.php.net/downloads.php (1)
-https://dev.mysql.com/downloads/installer/ (2)
+[php](https://www.php.net/downloads.php) and [mysql](https://dev.mysql.com/downloads/installer/)
 
 ======================================================= 
 

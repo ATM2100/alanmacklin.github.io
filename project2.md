@@ -25,4 +25,23 @@ This will both compile and run the project (see Fig. 1).
 ![screenshot](/images/project2/Fig1.png)  
 Fig 1. Dijkstra's Shortest path having run.
 
+## How to make changes and test the file
+You can test this program by editing main.cpp, and then running make. The functions to consider and when are as follows:
+
+graph.addEdge(start, end, weight)
+
+Will add more edges to the graph, and thus more edges dijkstra's will have to consider.
+
+graph.removeEdge(start, end)
+
+Removes an edge.
+
+graph.print()
+
+prints the graph to the cli.
+
+graph.dijkstraShortestPath(start, end)
+
+finds the shortest path from "start" to "end".
+
 [Back to Portfolio](./)
