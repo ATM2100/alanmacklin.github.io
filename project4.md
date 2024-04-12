@@ -15,9 +15,11 @@ An implementation of hangman based on a Mimir prompt. I did work on this project
 
 ## How to compile and run the program
 
-
+Mingw is the tool used to compile this project.
 
 ## UI Design
+
+The ui is terminal based.
 
 
 [Back to Portfolio](./)
