@@ -26,7 +26,10 @@ Programming Projects
 
 ![It's man that's hanging](/images/hangman.png)
 
----
+------
+### [Horse Whisperer | CSCI 431](project5)
+
+![It's man that's hanging](/images/horse.png)
 
 Ethics Papers
 -------------
